@@ -19,7 +19,7 @@ html {
 :root {
     --red: #d35266;
     --grey: #888888;
-    --grey-light: #888888;
+    --grey-light: #999999;
     --black: #383838;
     --white: #ffffff;
 }
@@ -56,29 +56,32 @@ html {
 /* navbar section */
 nav {
     background-color: var(--black);
-    padding: 0.5rem 0;
+    padding: 0.5rem 4rem;
 }
 
 nav > ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px, max-content));
+    grid-template-columns: repeat(auto-fit,minmax(95px, max-content));
     justify-content: space-evenly;
     align-items: center;
+    list-style: none;
 }
 
-nav > ul > li {
+nav > ul > li > a{
     display: flex;
     font-size: 1.5rem;
     color: var(--grey);
     transition: 0.3s;
+    text-decoration: none;
+    margin: 1rem 0;
 }
 
-nav > ul > li:hover {
+nav > ul > li > a:hover {
     color: var(--white);
     cursor: pointer;
 }
 
-nav > ul > li > i {
+nav > ul > li > a > i {
     margin: 0 1.5rem;
 }
 
@@ -88,11 +91,14 @@ nav > ul > li > i {
     background-color: var(--red);
     border-radius: 3px;
     transition: 0.3s;
+    font-size: 1.5rem;
 }
 
 .red-btn:hover {
     color: var(--red);
     background-color: var(--white);
+    cursor: pointer;
+    border: 1px solid var(--red);
 }
 
 /*header section */
@@ -101,12 +107,13 @@ header {
     display: grid;
     place-items: center;
     font-family: Gotham-Rounded-Light;
-    padding: 2rem 0;
+    padding: 2rem 4rem;
 }
 
 header > h4 {
     color: var(--white);
     font-size: 2rem;
+    text-align: center;
 }
 
 .black-btn {
@@ -117,39 +124,143 @@ header > h4 {
 
 form {
     display: grid;
+    grid-template-columns: max-content 1fr 1fr max-content;
+    width: 100%;
     align-items: center;
     font-size: 2rem;
     margin-top: 4rem;
 }
 
-form > i {
-    transform: translate(5px, 34px);
-}
-
-@media (min-width:832px) {
+@media (max-width: 904px) {
     form {
-        display: flex;
-        align-items: center;
-        font-size: 2rem;
+        grid-template-columns: 1fr;
     }
 
-    form > i {
-        transform: translateX(17px);
+    nav > ul {
+        grid-template-columns: 200px;
+        text-align: center;
     }
+
 }
-
-
 
 form > input {
     font-size: 2rem;
     margin: 0.1rem;
     padding: 1rem;
 }
-
-form:nth-child(2){
-    padding: 20rem;
+/* Hot ad section */
+.hot-ad-section {
+    padding: 0 4rem;
+    margin-top: 3rem;
 }
 
-.padding-left-2rem {
-    padding-left: 2rem;
+.hot-ad-section > h2 {
+    color: var(--grey);
+    font-size: 2rem;
+    margin: 2rem;
+    margin-left: 9rem;
+}
+
+.round {
+    border-radius: 50%;
+    border: 1px solid var(--grey);
+    color: var(--red);
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.round:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+@media (max-width:656px) {
+    .hot-ad-section > .round {
+        display: none;
+    }
+
+    .hot-ad-section > h2 {
+        margin-left: 4rem;
+    }
+}
+
+.left-center {
+    float: left;    
+    transform: translateY(12rem);
+}
+
+.right-center {
+    float: right;    
+    transform: translateY(12rem);
+}
+
+.hot-ad-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    font-size: 2.5rem;
+    padding: 0 4rem;
+}
+
+@media (max-width: 550px) {
+    .hot-ad-grid {
+        grid-template-columns: 1fr;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+
+    .hot-ad-section > h2 {
+        margin-left: 0;
+    }
+}
+
+.max-content-grid {
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+}
+
+.max-content-grid > h2 {
+    color: var(--red);
+}
+
+.max-content-grid > p {
+    color: var(--grey);
+}
+
+.light-grey {
+    color: var(--grey-light);
+}
+
+.img-hot-ad {
+    background-image: url('images/hot-ad-2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 2.6rem 2.5rem;
+    justify-content: right;
+    align-items: end;
+    border: 1px solid var(--grey);
+    width: 100%;
+    min-height: 35rem;
+}
+
+.img-hot-ad > i {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2.5rem;
+    background-color: var(--black);
+    color: var(--red);
+    text-align: center;
+    cursor: pointer;
+}
+
+.horizontal-align {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 2rem;
+    align-items: center;
 }
