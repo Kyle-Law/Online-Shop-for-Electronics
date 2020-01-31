@@ -12,5 +12,84 @@ body {
 
 html {
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica-Neue-light, Helvetica, sans-serif;
+}
+
+/* Color Palette */
+:root {
+    --red: #d35266;
+    --grey: #888888;
+    --grey-light: #888888;
+    --black: #383838;
+    --white: #ffffff;
+}
+
+/* font faces */
+@font-face {
+    font-family: Gotham-Rounded-Light;
+    src: url('fonts/Gotham\ Rounded\ Light.otf')
+}
+
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('fonts/Gotham\ Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Helvetica-Neue-light;
+    src: url('fonts/HelveticaNeueLTStd\ Lt.otf');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Helvetica-Neue;
+    src: url('fonts/HelveticaNeueLTStd-Cn.otf');
+}
+
+@font-face {
+    font-family: Helvetica-Neue-bold;
+    src: url('fonts/HelveticaNeueLTStd-BdCn.otf');
+    font-weight: bold;
+}
+
+/* navbar section */
+nav {
+    background-color: var(--black);
+}
+
+nav > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px, max-content));
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > ul > li {
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--grey);
+    transition: 0.3s;
+}
+
+nav > ul > li:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+
+nav > ul > li > i {
+    margin: 0 1.5rem;
+}
+
+.red-btn {
+    padding: 1rem 2rem;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.red-btn:hover {
+    color: var(--red);
+    background-color: var(--white);
 }
