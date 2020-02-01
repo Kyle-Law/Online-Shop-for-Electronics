@@ -5,13 +5,13 @@
 ![Screenshot](https://user-images.githubusercontent.com/55923773/73440344-18df6f00-438c-11ea-8e5f-6245f9a37c9d.png)
 
 ## Descriptions
-- It is a replica of the news site [newsweek.com](https://www.newsweek.com/). 
-- Any ads, icons, and interactive elements are ignored as specified in [The Odin project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
-- Bootstrap CSS classes are used throughout the project. 
+- It is Microverse HTML/CSS Capstone Project based on online shop for electronics.
+- The website is structured according to [this layout](https://www.behance.net/gallery/24796463/ZATTIX), designed by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+- It's a 2-pages website, which includes the main page and the search result page.
+- Each of the pages have versions for 2 different screen sizes which are mobile (up to 768px) and tablet/desktop (from 1024px)
 - This project is done solely by [@Kyle-Law](https://github.com/Kyle-Law)
 
 ## Built With
-- Bootstrap
 - HTML, CSS
 - VSCode
 
@@ -33,5 +33,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 - Microverse and TSEs
 - The Odin Project
