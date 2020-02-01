@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Online-Shop-for-Electronics/21a129be651e7ab119b485674a8048cee9e62f0c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Online-Shop-for-Electronics/bc27ec98f6f3ec70043cdfe030899391ff2e7324/index.html)
 
 ## Author
 
