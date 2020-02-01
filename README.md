@@ -35,4 +35,3 @@ Give a ⭐️ if you like this project!
 
 - Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 - Microverse and TSEs
-- The Odin Project
