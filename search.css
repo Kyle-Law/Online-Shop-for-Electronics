@@ -67,15 +67,30 @@ nav {
   background-color: var(--black);
   padding: 0.5rem 0;
   display: grid;
-  grid: 1fr / 1fr max-content;
+  grid-template-columns: 1fr max-content;
   justify-content: space-between;
   align-items: center;
 }
 
-@media (max-width: 768px) {
+nav > ul {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  grid-gap: 2.5rem;
+}
+
+@media (max-width: 950px) {
   nav {
-    grid: 1fr/1fr;
+    grid-template-columns: 1fr;
+  }
+
+  nav > ul {
+    grid-template-columns: 200px;
     justify-content: center;
+    text-align: center;
+    grid-auto-flow: row;
   }
 }
 
@@ -83,15 +98,6 @@ nav {
   display: flex;
   margin-right: 4rem;
   align-items: baseline;
-}
-
-nav > ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(95px, max-content));
-  justify-content: start;
-  align-items: center;
-  list-style: none;
-  grid-gap: 2.5rem;
 }
 
 .white-color {
@@ -206,14 +212,9 @@ form {
   margin-top: 4rem;
 }
 
-@media (max-width: 904px) {
+@media (max-width: 950px) {
   form {
     grid-template-columns: 1fr;
-  }
-
-  nav > ul {
-    grid-template-columns: 200px;
-    text-align: center;
   }
 
   form > a {
@@ -269,12 +270,12 @@ form > input {
 
 .main-right {
   display: grid;
-  grid-template-rows: 5rem 1fr;
+  grid-template-rows: 7rem 1fr;
 }
 
 .main-right-1 {
   border-bottom: 1px solid var(--grey-light);
-  padding: -2rem;
+  margin: auto 0;
 }
 
 .result {
@@ -283,6 +284,12 @@ form > input {
   grid-gap: 1rem;
   border-bottom: 1px solid var(--grey-light);
   padding: 2rem 0;
+}
+
+@media (max-width: 500px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {

@@ -189,6 +189,7 @@ form {
   nav > ul {
     grid-template-columns: 200px;
     text-align: center;
+    padding: 2rem 0;
   }
 
   form > a {
@@ -253,10 +254,16 @@ form > input {
 
 .hot-ad-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 1fr 2fr;
   grid-gap: 1rem;
   font-size: 2.5rem;
   padding: 0 4rem;
+}
+
+@media (max-width: 768px) {
+  .hot-ad-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 550px) {
