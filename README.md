@@ -8,6 +8,7 @@
 - It is Microverse HTML/CSS Capstone Project based on online shop for electronics.
 - The website is structured according to [this layout](https://www.behance.net/gallery/24796463/ZATTIX), designed by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 - It's a 2-pages website, which includes the main page and the search result page.
+- The search result page can be accessed by clicking 'collection','purchase list' or 'search' button.
 - Each of the pages have versions for 2 different screen sizes which are mobile (up to 768px) and tablet/desktop (from 1024px)
 - This project is done solely by [@Kyle-Law](https://github.com/Kyle-Law)
 
