@@ -1,4 +1,4 @@
-# LAZUKI - Online Shop for Electrics
+# LAZUKI - Online Shop for Electronics
 
 > HTML/CSS Capstone Project
 
