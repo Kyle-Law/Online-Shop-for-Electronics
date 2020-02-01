@@ -181,7 +181,7 @@ form {
   margin-top: 4rem;
 }
 
-@media (max-width: 904px) {
+@media (max-width: 950px) {
   form {
     grid-template-columns: 1fr;
   }
