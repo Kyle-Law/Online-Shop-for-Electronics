@@ -19,6 +19,17 @@
 
 [Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Online-Shop-for-Electronics/bc27ec98f6f3ec70043cdfe030899391ff2e7324/index.html)
 
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Start by:
+* Forking the project
+* Cloning the project to your local machine
+* `cd` into the project directory
+* Run `git checkout -b your-branch-name`
+* Make your contributions
+* Push your branch up to your forked repository
+* Open a Pull Request with a detailed description to the development branch of the original project for a review
+
 ## Author
 
 👤 **Kyle Law**
@@ -35,3 +46,5 @@ Give a ⭐️ if you like this project!
 
 - Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 - Microverse and TSEs
+
+### Enjoy :)
