@@ -2,7 +2,7 @@
 
 > HTML/CSS Capstone Project
 
-![Screenshot](https://user-images.githubusercontent.com/55923773/73589030-c75dee00-450b-11ea-92ae-f2516f1ac79d.png)
+![Screenshot](https://user-images.githubusercontent.com/55923773/73589126-1f492480-450d-11ea-9a82-b64333973e98.png)
 
 ## Descriptions
 - It is Microverse HTML/CSS Capstone Project based on online shop for electronics.
