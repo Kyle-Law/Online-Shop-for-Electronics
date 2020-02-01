@@ -356,6 +356,12 @@ form > input {
   grid-template-rows: 250px repeat(4, max-content);
   font-size: 1.7rem;
   background-color: var(--white);
+  transition: 0.3s;
+}
+
+.item:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
 }
 
 .item > div > h5 {
