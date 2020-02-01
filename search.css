@@ -290,6 +290,10 @@ form > input {
   .main-container {
     grid-template-columns: 1fr;
   }
+
+  .main-left {
+    border-bottom: 1px solid var(--grey-light);
+  }
 }
 
 @media (max-width: 768px) {
