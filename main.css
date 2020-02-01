@@ -260,7 +260,7 @@ form > input {
   padding: 0 4rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .hot-ad-grid {
     grid-template-columns: 1fr;
   }
@@ -402,6 +402,10 @@ form > input {
 }
 
 /* Footer section */
+footer {
+  padding: 1rem;
+}
+
 .footer-1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -488,4 +492,23 @@ form > input {
 .social-media a:hover {
   color: var(--red);
   cursor: pointer;
+}
+
+@media (max-width: 411px) {
+  form > input {
+    font-size: 1rem;
+    margin: 0.1rem;
+    padding: 0.5rem;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .footer-2 {
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+    align-items: center;
+  }
 }
