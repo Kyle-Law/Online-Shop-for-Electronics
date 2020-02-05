@@ -161,6 +161,10 @@ header {
   align-content: center;
 }
 
+h1 {
+  color: var(--white);
+}
+
 header > h4 {
   color: var(--white);
   font-size: 2rem;
@@ -208,13 +212,14 @@ form > input {
 
 /* Hot ad section */
 .hot-ad-section {
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
 .hot-ad-section > h2 {
   color: var(--grey);
   font-size: 2rem;
-  margin-left: 4rem;
+  margin-left: 9.4rem;
+  margin-bottom: 2rem;
 }
 
 .round {
@@ -233,7 +238,7 @@ form > input {
   color: var(--white);
 }
 
-@media (max-width: 656px) {
+@media only screen and (max-width: 656px) {
   .hot-ad-section > .round {
     display: none;
   }
@@ -261,13 +266,7 @@ form > input {
   padding: 0 4rem;
 }
 
-@media (max-width: 950px) {
-  .hot-ad-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 550px) {
+@media only screen and (max-width: 550px) {
   .hot-ad-grid {
     grid-template-columns: 1fr;
     padding: 0;
@@ -306,8 +305,9 @@ form > input {
   justify-content: right;
   align-items: end;
   border: 1px solid var(--grey);
-  width: 100%;
-  min-height: 35rem;
+  width: 374px;
+  height: 267px;
+  margin: 0 auto;
 }
 
 .img-hot-ad > i {
@@ -318,6 +318,10 @@ form > input {
   color: var(--red);
   text-align: center;
   cursor: pointer;
+}
+
+.hot-ad-details p {
+  font-size: 2rem;
 }
 
 .horizontal-align {
@@ -348,8 +352,9 @@ form > input {
 
 .items-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, 300px);
   grid-gap: 2rem;
+  justify-content: space-evenly;
 }
 
 .item {
@@ -398,6 +403,7 @@ form > input {
 
 .font-bold {
   font-family: Helvetica-Neue, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .bg-grey {
@@ -501,7 +507,18 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 411px) {
+@media (max-width: 950px) {
+  .hot-ad-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img-hot-ad {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
   form > input {
     font-size: 1rem;
     margin: 0.1rem;
@@ -517,5 +534,10 @@ footer {
     justify-content: center;
     padding: 2rem;
     align-items: center;
+  }
+
+  .img-hot-ad {
+    width: 300px;
+    height: 214px;
   }
 }

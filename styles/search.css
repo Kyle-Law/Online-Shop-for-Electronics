@@ -192,6 +192,10 @@ header {
   padding: 2rem;
 }
 
+h1 {
+  color: var(--white);
+}
+
 header > h4 {
   color: var(--white);
   font-size: 2rem;
@@ -287,7 +291,33 @@ form > input {
   padding: 2rem 0;
 }
 
-@media (max-width: 500px) {
+.result-pic {
+  display: grid;
+  grid-template-columns: 2.6rem 2.5rem;
+  justify-content: right;
+  align-items: end;
+  border: 1px solid var(--grey-light-2);
+  height: 169px;
+  width: 251px;
+}
+
+@media only screen and (max-width: 768px) {
+  .result {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .result-pic {
+    width: 400px;
+    height: 267px;
+  }
+
+  .hot-ad-section > h2 {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .main-container {
     grid-template-columns: 1fr;
   }
@@ -295,16 +325,10 @@ form > input {
   .main-left {
     border-bottom: 1px solid var(--grey-light);
   }
-}
 
-@media (max-width: 768px) {
-  .result {
-    grid-template-columns: 1fr;
-    font-size: 1.5rem;
-  }
-
-  .hot-ad-section > h2 {
-    margin-left: 0;
+  .result-pic {
+    height: 200px;
+    width: 300px;
   }
 }
 
@@ -327,18 +351,8 @@ form > input {
 }
 
 .bold-helvetica {
-  font-family: Helvetica-Neue-bold, Helvetica, sans-serif;
-}
-
-.result-pic {
-  display: grid;
-  grid-template-columns: 2.6rem 2.5rem;
-  justify-content: right;
-  align-items: end;
-  border: 1px solid var(--grey-light-2);
-  width: 100%;
-  min-height: 167px;
-  height: 100%;
+  font-family: Helvetica-Neue, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .result-pic-1 {
@@ -494,7 +508,7 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 411px) {
+@media only screen and (max-width: 411px) {
   form > input {
     font-size: 1rem;
     margin: 0.1rem;
