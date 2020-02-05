@@ -20,6 +20,9 @@
 
 [Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Online-Shop-for-Electronics/4adf0291a20aea49333cab82fc391eacadc299ff/index.html)
 
+## Video Presentation
+[Video Presentation Link](https://youtu.be/AfS4jPAgV54)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! Start by:
@@ -48,4 +51,4 @@ Give a ⭐️ if you like this project!
 - Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 - Microverse and TSEs
 
-### Enjoy :)
+## Any feedbacks or suggestions are welcomed :)
