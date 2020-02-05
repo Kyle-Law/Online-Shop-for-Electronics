@@ -1,63 +1,46 @@
-# Project Name
+# LAZUKI - Online Shop for Electronics
 
-> One paragraph statement about the project.
+> HTML/CSS Capstone Project
 
-![screenshot](./app_screenshot.png)
+![Screenshot](https://user-images.githubusercontent.com/55923773/73589126-1f492480-450d-11ea-9a82-b64333973e98.png)
 
-Additional description about the project and its features.
+## Descriptions
+- It is Microverse HTML/CSS Capstone Project based on online shop for electronics.
+- The website is structured according to [this layout](https://www.behance.net/gallery/24796463/ZATTIX), designed by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+- It's a 2-pages website, which includes the main page and the search result page.
+- The search result page can be accessed by clicking 'collection','purchase list' or 'search' button.
+- Each of the pages have versions for 2 different screen sizes which are mobile (up to 768px) and tablet/desktop (from 1024px)
+- This project is done solely by [@Kyle-Law](https://github.com/Kyle-Law)
 
 ## Built With
-
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS
+- VSCode
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Online-Shop-for-Electronics/4adf0291a20aea49333cab82fc391eacadc299ff/index.html)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+## Video Presentation
+[Video Presentation Link](https://youtu.be/AfS4jPAgV54)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are welcome! Start by:
+* Forking the project
+* Cloning the project to your local machine
+* `cd` into the project directory
+* Run `git checkout -b your-branch-name`
+* Make your contributions
+* Push your branch up to your forked repository
+* Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-Feel free to check the [issues page](issues/).
+## Author
+
+👤 **Kyle Law**
+
+- Github: [@Kyle-Law](https://github.com/Kyle-Law)
+- Twitter: [@Kyle-Law](https://twitter.com/ZhunKhing)
+- Linkedin: [Kyle law](https://www.linkedin.com/in/kyle-lawzhunkhing/)
 
 ## Show your support
 
@@ -65,10 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
+- Microverse and TSEs
 
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+## Any feedbacks or suggestions are welcomed :)
